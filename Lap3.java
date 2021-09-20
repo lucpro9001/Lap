@@ -157,15 +157,15 @@ public class Lap3 {
         
     }
     
-    static class sortByMark implements Comparator<Student>
-{
-    // Used for sorting in ascending order of
-    // mark number
-    @Override
-    public int compare(Student a, Student b)
-    {
-        return (int)(a.mark - b.mark);
+    static class sortByMark implements Comparator<Student> {
+        // Used for sorting in ascending order of
+        // mark number
+        @Override
+        public int compare(Student a, Student b) {
+            if(a.mark < b.mark) return -1;
+            else if(a.mark > b.mark) return 1;
+            return 0;
+        }
     }
-}
     
 }
