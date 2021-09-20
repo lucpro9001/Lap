@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab1bai1;
+package lab1;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author Admin
  */
-public class Lab1Bai1 {
+public class Lab1 {
 
     static Scanner keyScanner = new Scanner(System.in);
     /**
